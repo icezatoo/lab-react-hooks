@@ -7,7 +7,7 @@ class App extends PureComponent {
   render() {
     return (
       <main>
-        <Herder title="Hello Cat" />
+        <Herder title="Hooks Cat" />
         <div className="App">
           <section>
             <BoxCat />

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import Icon from './Icon';
 
 const TitleHerder = styled.h3`
   margin-left: 10px;
@@ -10,12 +11,7 @@ const TitleHerder = styled.h3`
 const Herder = ({ title }) => (
   <header className="nav">
     <TitleHerder>{title}</TitleHerder>
-    <img
-      width="25"
-      alt="icon-cat"
-      height="25"
-      src="https://img.icons8.com/metro/26/000000/cat-footprint.png"
-    />
+    <Icon src="https://img.icons8.com/metro/26/000000/cat-footprint.png" />
   </header>
 );
 
@@ -24,7 +20,7 @@ Herder.propTypes = {
 };
 
 Herder.defaultProps = {
-  title: 'Cat',
+  title: 'Hooks Cat',
 };
 
 export default Herder;
